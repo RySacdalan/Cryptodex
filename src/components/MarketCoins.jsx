@@ -1,7 +1,7 @@
 import React from 'react';
 import './MarketCoins.css';
 
-const MarketCoins = (props) => {
+const MarketCoins = ({image, name, symbol, price, volume}) => {
     return(
         <div className="coin-container">
             <div className="coin-row">

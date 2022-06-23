@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../components/Header';
 
-const MainHeader = () => {
+const MainHeader = ({handleChange}) => {
     return(
-        <Header />
+        <Header handleChange={handleChange}/>
     )
 }
 
