@@ -1,10 +1,10 @@
 import React from 'react'
 import MarketCoins from '../components/MarketCoins'
 
-const MainBody = ({image, name, symbol, price, volume}) => {
+const MainBody = ({image, name, symbol, price, volume, priceChange, marketcap}) => {
  return(
     <React.Fragment>
-        <MarketCoins image={image} name={name} symbol={symbol} price={price} volume={volume}/>
+        <MarketCoins image={image} name={name} symbol={symbol} price={price} volume={volume} priceChange={priceChange} marketcap={marketcap}/>
     </React.Fragment>
  )
 }

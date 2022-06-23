@@ -41,8 +41,10 @@ function App() {
             name={data.name}
             image={data.image}
             symbol={data.symbol}
-            volume={data.market_cap}
+            marketcap={data.market_cap}
             price={data.current_price}
+            priceChange={data.price_change_percentage_24h}
+            volume={data.total_volume}
           />
         );
       })}
