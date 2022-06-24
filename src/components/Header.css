@@ -3,3 +3,33 @@
  align-items: center;
  justify-content: space-between;
 }
+.header__search{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.header__search input, button{
+ font-family: inherit;
+ padding: 6px;
+}
+.header__search button{
+ border-top-right-radius: 5px;
+ border-bottom-right-radius: 5px;
+ background-color: #eeef20;
+ cursor: pointer;
+}
+.header__search input{
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+}
+.header__search button ion-icon{
+ font-size: 15px;
+}
+.header__title p{
+ color: #eeef20;
+}
+.header__title{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+}
