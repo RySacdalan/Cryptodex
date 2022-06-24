@@ -3,7 +3,9 @@ import Header from '../components/Header';
 
 const MainHeader = ({handleChange}) => {
     return(
-        <Header handleChange={handleChange}/>
+        <div className="max-content">
+            <Header handleChange={handleChange}/>
+        </div>
     )
 }
 
